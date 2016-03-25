@@ -1,0 +1,7 @@
+/**
+ * Created by root on 25/3/16.
+ */
+
+var country = require('countryjs');
+//console.log(country.states('IND', 'ISO3')); // 'ISO2', 'ISO3', 'name'
+console.log(country.states('IN')); // Defaults to ISO2
